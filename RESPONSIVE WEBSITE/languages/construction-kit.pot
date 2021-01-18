@@ -1,0 +1,938 @@
+# Copyright (C) 2018 WP Charms
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Responsive website by Scott CyberOps & Risk Management\n"
+"Report-Msgid-Bugs-To: https://scottcyberoperations.business.site\n"
+"POT-Creation-Date: 2021-01-17 08:37-0645\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Scott CyberOps & Risk Management <jason.andywayne.scott@protonmail.com>\n"
+"Language-Team: the language design team <scott.cyberops.llc@protonmail.ch>\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21 template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:52
+msgid "Main Header Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:115
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:117
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:127
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:386
+#: includes/class-tgm-plugin-activation.php:827
+#: includes/class-tgm-plugin-activation.php:2533
+#: includes/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:387
+#: includes/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:388
+#: includes/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:934
+#: includes/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1121
+#: includes/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2717
+#: includes/theme-info/class-about.php:554
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2726
+#: includes/theme-info/class-about.php:558
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3509
+#: includes/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/customizer/core.php:60
+msgid "Read More"
+msgstr ""
+
+#: includes/customizer/core.php:61
+msgid "Copyright &copy; [the-year] [the-site-title]. All rights reserved."
+msgstr ""
+
+#: includes/customizer/customizer.php:49
+msgid "Construction Kit Pro"
+msgstr ""
+
+#: includes/customizer/customizer.php:50
+msgid "Buy Now"
+msgstr ""
+
+#: includes/customizer/options/blog.php:11
+msgid "Blog/Archive"
+msgstr ""
+
+#: includes/customizer/options/blog.php:26
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/customizer/options/blog.php:27
+msgid "in words"
+msgstr ""
+
+#: includes/customizer/options/blog.php:44
+msgid "Read More Text"
+msgstr ""
+
+#: includes/customizer/options/footer.php:11
+msgid "Footer"
+msgstr ""
+
+#: includes/customizer/options/footer.php:26
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/customizer/options/header.php:19
+msgid "Logo Options"
+msgstr ""
+
+#: includes/customizer/options/header.php:22
+msgid "Logo Only"
+msgstr ""
+
+#: includes/customizer/options/header.php:23
+msgid "Title Only"
+msgstr ""
+
+#: includes/customizer/options/header.php:24
+msgid "Title + Tagline"
+msgstr ""
+
+#: includes/customizer/options/header.php:32
+msgid "Main Header"
+msgstr ""
+
+#: includes/customizer/options/header.php:47
+msgid "Show Social Icons"
+msgstr ""
+
+#: includes/customizer/options/header.php:63
+msgid "Show Search Form"
+msgstr ""
+
+#: includes/customizer/options/options.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: includes/demo/demo.php:17
+msgid "Demo 1"
+msgstr ""
+
+#: includes/demo/demo.php:26
+msgid "Demo 3"
+msgstr ""
+
+#: includes/demo/demo.php:35
+msgid "Demo 4"
+msgstr ""
+
+#: includes/helpers.php:20
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/helpers.php:25
+msgctxt "Muli font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/helpers.php:59
+msgctxt "year date format"
+msgid "Y"
+msgstr ""
+
+#: includes/hooks.php:55
+msgid "Skip to content"
+msgstr ""
+
+#: includes/hooks.php:257
+#, php-format
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: includes/metabox.php:33
+msgid "Construction Kit Settings"
+msgstr ""
+
+#: includes/metabox.php:63
+msgid "Disable Title"
+msgstr ""
+
+#: includes/metabox.php:70
+msgid "Disable Featured Image"
+msgstr ""
+
+#: includes/metabox.php:77
+msgid "Disable Top & Bottom Space of the Content"
+msgstr ""
+
+#: includes/template-functions.php:181 includes/theme-info/about.php:111
+#: includes/theme-info/about.php:122
+msgid "One Click Demo Import"
+msgstr ""
+
+#: includes/template-functions.php:186
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: includes/template-functions.php:191
+msgid "Post Grid Elementor Addon"
+msgstr ""
+
+#: includes/template-functions.php:196
+msgid "Awesome Elementor Addon For Instagram Feed"
+msgstr ""
+
+#: includes/template-tags.php:19 includes/template-tags.php:102
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: includes/template-tags.php:114
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: includes/theme-info/about.php:9 includes/theme-info/about.php:10
+msgid "About Construction Kit"
+msgstr ""
+
+#: includes/theme-info/about.php:13
+#, php-format
+msgid "Welcome to %s - "
+msgstr ""
+
+#: includes/theme-info/about.php:16
+msgid ""
+"Construction Kit is a simple, clean and lightweight multi-purpose WordPress "
+"theme compatible with Elementor and Gutenberg."
+msgstr ""
+
+#: includes/theme-info/about.php:21
+msgid "Theme Details"
+msgstr ""
+
+#: includes/theme-info/about.php:25
+msgid "View Demo"
+msgstr ""
+
+#: includes/theme-info/about.php:29
+msgid "View Documentation"
+msgstr ""
+
+#: includes/theme-info/about.php:33
+msgid "Rate This Theme"
+msgstr ""
+
+#: includes/theme-info/about.php:40
+msgid "Getting Started"
+msgstr ""
+
+#: includes/theme-info/about.php:41 includes/theme-info/about.php:58
+msgid "Recommended Actions"
+msgstr ""
+
+#: includes/theme-info/about.php:42
+msgid "Demo Content"
+msgstr ""
+
+#: includes/theme-info/about.php:43
+msgid "FREE VS. PRO"
+msgstr ""
+
+#: includes/theme-info/about.php:49
+msgid "Theme Documentation"
+msgstr ""
+
+#: includes/theme-info/about.php:50
+msgid ""
+"Find step by step instructions with video documentation to setup theme easily."
+msgstr ""
+
+#: includes/theme-info/about.php:51
+msgid "View documentation"
+msgstr ""
+
+#: includes/theme-info/about.php:59
+msgid ""
+"We recommend few steps to take so that you can get complete site like shown "
+"in demo."
+msgstr ""
+
+#: includes/theme-info/about.php:60
+msgid "Check recommended actions"
+msgstr ""
+
+#: includes/theme-info/about.php:67
+msgid "Customize Everything"
+msgstr ""
+
+#: includes/theme-info/about.php:68
+msgid "Start customizing every aspect of the website with customizer."
+msgstr ""
+
+#: includes/theme-info/about.php:69
+msgid "Go to Customizer"
+msgstr ""
+
+#: includes/theme-info/about.php:77
+msgid "Pro Version"
+msgstr ""
+
+#: includes/theme-info/about.php:78
+msgid "Upgrade to pro version for additional features and options."
+msgstr ""
+
+#: includes/theme-info/about.php:79
+msgid "View Pro Version"
+msgstr ""
+
+#: includes/theme-info/about.php:87 includes/theme-info/about.php:89
+msgid "Contact Support"
+msgstr ""
+
+#: includes/theme-info/about.php:88
+msgid ""
+"If you have any problem, feel free to create ticket on our dedicated Support "
+"forum."
+msgstr ""
+
+#: includes/theme-info/about.php:97 includes/theme-info/about.php:99
+msgid "Customization Request"
+msgstr ""
+
+#: includes/theme-info/about.php:98
+msgid ""
+"We have dedicated team members for theme customization. Feel free to contact "
+"us any time if you need any customization service."
+msgstr ""
+
+#: includes/theme-info/about.php:112
+msgid ""
+"Please install the One Click Demo Import plugin to import the demo content. "
+"After activation go to Appearance >> Import Demo Data and import it."
+msgstr ""
+
+#: includes/theme-info/about.php:122
+#, php-format
+msgid ""
+"Install %1$s plugin to import demo content. Demo data are bundled within the "
+"theme, Please make sure plugin is installed and activated. After plugin "
+"activation, go to Import Demo Data menu under Appearance and import it."
+msgstr ""
+
+#: includes/theme-info/about.php:129
+msgid "Gutenberg & Elementor Compatible"
+msgstr ""
+
+#: includes/theme-info/about.php:130
+msgid "Theme supports/works perfectly with Gutenberg and Elementor"
+msgstr ""
+
+#: includes/theme-info/about.php:131 includes/theme-info/about.php:132
+#: includes/theme-info/about.php:139 includes/theme-info/about.php:153
+#: includes/theme-info/about.php:167 includes/theme-info/about.php:174
+#: includes/theme-info/about.php:180
+msgid "yes"
+msgstr ""
+
+#: includes/theme-info/about.php:136
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/theme-info/about.php:137
+msgid "Option to make header sticky at top"
+msgstr ""
+
+#: includes/theme-info/about.php:138 includes/theme-info/about.php:152
+#: includes/theme-info/about.php:166 includes/theme-info/about.php:173
+msgid "no"
+msgstr ""
+
+#: includes/theme-info/about.php:143
+msgid "Font Options"
+msgstr ""
+
+#: includes/theme-info/about.php:144
+msgid "Google fonts options for changing the overall site fonts"
+msgstr ""
+
+#: includes/theme-info/about.php:146
+msgid "100+"
+msgstr ""
+
+#: includes/theme-info/about.php:150
+msgid "Color Options"
+msgstr ""
+
+#: includes/theme-info/about.php:151
+msgid "Options to change the primary color of a site"
+msgstr ""
+
+#: includes/theme-info/about.php:157
+msgid "WooCommerce Options"
+msgstr ""
+
+#: includes/theme-info/about.php:158
+msgid "Options to manage your store using WooCommerce plugin"
+msgstr ""
+
+#: includes/theme-info/about.php:159
+msgid "Basic"
+msgstr ""
+
+#: includes/theme-info/about.php:160
+msgid "Advanced"
+msgstr ""
+
+#: includes/theme-info/about.php:164
+msgid "Sticky Footer"
+msgstr ""
+
+#: includes/theme-info/about.php:165
+msgid "Option to make footer sticky at bottom with parallax effect"
+msgstr ""
+
+#: includes/theme-info/about.php:171
+msgid "Hide or Override Footer Credit"
+msgstr ""
+
+#: includes/theme-info/about.php:172
+msgid "Option to enable/disable or override Powerby text in footer"
+msgstr ""
+
+#: includes/theme-info/about.php:178
+msgid "Support Forum"
+msgstr ""
+
+#: includes/theme-info/about.php:179
+msgid ""
+"Highly experienced and dedicated support team for your help plus online chat."
+msgstr ""
+
+#: includes/theme-info/about.php:181
+msgid "High Priority"
+msgstr ""
+
+#: includes/theme-info/class-about.php:164
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best our "
+"theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr ""
+
+#: includes/theme-info/class-about.php:164
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: includes/theme-info/class-about.php:562
+msgid "Deactivate"
+msgstr ""
+
+#: includes/theme-info/class-about.php:619
+msgid "Free"
+msgstr ""
+
+#: includes/theme-info/class-about.php:620
+msgid "Pro"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-page.php:44 template-parts/content.php:65
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:56
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/content.php:54
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
